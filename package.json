@@ -1,0 +1,42 @@
+{
+  "name": "centro-medico-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisAlvar3z/centro-medico-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisAlvar3z/centro-medico-api/issues"
+  },
+  "homepage": "https://github.com/CrisAlvar3z/centro-medico-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "error-handler": "^1.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.3",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.14",
+    "pg": "^8.8.0",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.9.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

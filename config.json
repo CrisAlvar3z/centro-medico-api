@@ -1,0 +1,18 @@
+{
+    "database": {
+        "host": "dpg-cdte2qien0hlde3cthlg-a.oregon-postgres.render.com",
+        "port": 5432,
+        "user": "root",
+        "password": "C0UwM29SpOWEQhiNo5FQAI60CmCHlooj",
+        "database": "cmedgalenos"
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING,",
+    "emailFrom": "grandcar.chile@gmail.com",
+    "smtpOptions": {
+        "service": "Gmail",
+        "auth": {
+            "user": "grandcar.chile@gmail.com",
+            "pass": "GrandCarchile"
+        }
+    }
+}
