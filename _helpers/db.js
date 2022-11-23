@@ -28,10 +28,11 @@ async function initialize() {
     
     // init models and add them to the exported db object
     db.Account = require('../accounts/account.model')(sequelize);
-
+    db.RefreshToken = require('../accounts/refresh-token.model')(sequelize);
     //define relationships
 
-
+    db.Account.hasMany(db.RefreshToken, { onDelete: 'CASCADE' });
+    db.RefreshToken.belongsTo(db.Account);
     // db.Condominio.hasMany(db.Edificio, { onDelete: 'CASCADE', onUpdate: 'CASCADE' });
     // db.Edificio.hasMany(db.Departamento, { onDelete: 'CASCADE', onUpdate: 'CASCADE' });
     // db.Departamento.hasMany(db.Multa, { onDelete: 'CASCADE', onUpdate: 'CASCADE' });
